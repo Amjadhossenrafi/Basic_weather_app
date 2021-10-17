@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-area">
+        <form action="" class="input">
+          <input
+            type="text"
+            class="city-name-input"
+            placeholder="enter city name"
+          />
+          <input type="submit" value="Search" class="city-search-btn" />
+        </form>
+      </div>
+
+      <div class="location">
+        <h1 class="timezone"></h1>
+        <img class="icon" />
+      </div>
+
+      <div class="description">
+        <h2 class="temp"></h2>
+        <div class="temp-condition"></div>
+        <div class="wind"></div>
+      </div>
+    </div>
+
+    <script src="forcast.js"></script>
+    <!-- <script src="scripts/app.js"></script> -->
+  </body>
+</html>
